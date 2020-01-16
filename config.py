@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-# @Author: zhaoliang
-# @Date:   2019-08-04 01:10:33
-# @Email:  zhaoliang1@interns.chuangxin.com
-# @Last Modified by:   admin
-# @Last Modified time: 2019-08-04 01:12:02
 
 class Config(object):
     # 在知识图谱图TransX系列中的参数均在config类内修改和定义，在模型类与Main.py内不需要修改

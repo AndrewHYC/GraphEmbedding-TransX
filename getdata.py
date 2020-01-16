@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-# @Author: zhaoliang
-# @Date:   2019-08-04 01:10:57
-# @Email:  zhaoliang1@interns.chuangxin.com
-# @Last Modified by:   admin
-# @Last Modified time: 2019-08-04 01:12:56
+
 import random
 from config import Config
 import os

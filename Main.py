@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-# @Author: zhaoliang
-# @Date:   2019-08-04 01:05:34
-# @Email:  zhaoliang1@interns.chuangxin.com
-# @Last Modified by:   admin
-# @Last Modified time: 2019-08-04 01:12:57
+
 import tensorflow as tf
 import os
 import re
@@ -59,7 +55,7 @@ def main(argv=None):
 				gloabl_step = epoch
 			if epoch % 50 == 0:
 				print('epoch:', epoch, ',loss:', loss)
-		saver_add = './模型保存路径/' + KG_name + '/' +str(type(trainModel)).replace("<class 'Models.",'').replace("'>",'')+'/'
+		saver_add = './output/' + KG_name + '/' +str(type(trainModel)).replace("<class 'Models.",'').replace("'>",'')+'/'
 		print('模型文件保存在',saver_add+'model.ckpt')
 		try:
 			os.makedirs(saver_add)
