@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-# @Author: zhaoliang
-# @Date:   2019-08-04 01:05:34
-# @Email:  zhaoliang1@interns.chuangxin.com
-# @Last Modified by:   admin
-# @Last Modified time: 2019-08-04 01:12:57
+
 import tensorflow as tf
 import os
 import re

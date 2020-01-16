@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-# @Author: zhaoliang
-# @Date:   2019-08-04 01:10:33
-# @Email:  zhaoliang1@interns.chuangxin.com
-# @Last Modified by:   admin
-# @Last Modified time: 2019-08-04 19:12:02
+
 import tensorflow as tf
 from config import Config
 import numpy as np
